@@ -1,1 +1,1 @@
-# blog
+# laravel-advertising-board

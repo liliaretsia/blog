@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import "~font-awesome/scss/font-awesome";
+
+// Summernote WYSIWYG
+@import "~summernote/dist/summernote-bs4.css";
+
+// import datepickers scss file...
+@import '~js-datepicker/src/datepicker';
+
+.navbar-dark {
+  background-color: #1b4b72;
+  color: #ffffff;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+}
+
+
+.table th, .table td {
+  padding: 0.55rem 0.75rem;
+}
+
+.adverts-list {
+  .advert {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+}
+
+.search-bar {
+  background: #e9ecef;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 0;
+}
+
+.banner {
+  border: 1px solid #ddd;
+}
